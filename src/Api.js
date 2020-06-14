@@ -1,0 +1,1 @@
+module.exports = { ApiUrl : "https://api.github.com" }

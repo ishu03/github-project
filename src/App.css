@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +40,117 @@
     transform: rotate(360deg);
   }
 }
+
+input {
+  outline: none
+}
+
+.search-div .searchBox {
+  background: #585555;
+  border-radius: 5px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.myApp {
+  background-color: #302c2c;
+}
+
+#react-logo {
+  color: #00BCD4
+}
+
+.search-icon {
+  color: #363748
+}
+
+.user-thumbnail {
+  height: calc(100% - 83px)
+}
+
+.card-title {
+  width: 90%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+ 
+}
+
+.user-details-btn {
+  width: 80%;
+  margin: auto;
+}
+
+.highlight-orange{
+  color : orange
+}
+
+.highlight-green{
+  color : rgb(220, 231, 117)
+}
+
+.user-details-btn i {
+  padding-left: 10px;
+}
+
+@media (max-width: 1155px) {
+  .search-header {
+    font-size: 2.0rem !important
+  }
+}
+
+@media (max-width: 500px) {
+  .search-header {
+    font-size: 1.5rem !important
+  }
+
+  .footer{
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .user-details-btn {
+    padding: 4px;
+    font-size: 10px;
+  }
+  .card-title {
+    font-size: 17px;
+  }
+}
+
+.fab.fa-linkedin {
+  color: #00BCD4;
+  font-size : 30px;
+}
+
+.search-header {
+  font-size: 3rem;
+  color: #232222;
+
+}
+
+.nav-bar .navbar {
+  margin: 0 !important;
+}
+
+.app-footer .footer {
+  margin: 0 !important;
+}
+
+.list-group > .repo-item{
+  border-bottom: 1px solid #e0e0e0ad;
+  text-align: left;
+  padding: 10px;
+}
+
+.container .repo-title{
+    color: grey;
+    padding: 10px;
+}
+
+.repo-item .repo-desc{
+  font-size: 15px;
+  color: #616161;
+}
+
